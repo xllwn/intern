@@ -1,0 +1,58 @@
+a
+<html>
+  <title>Intern</title>
+  <head>
+    <link rel="stylesheet" href="intern.css" />
+    <script
+      src="https://kit.fontawesome.com/14c1015683.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+<body>
+    
+    <div class="container">
+        <!-- <div class="menu-btn"> -->
+          <!-- <i class="fas fa-bars fa-2x"></i> -->
+          <!-- <div>
+          <nav class="nav-main"> 
+              <img src="logo.png" alt="logo" class="logo">
+              <p>
+                  <li><a href="#">Trafalgar</a></li>
+                  <li><a href="#">Office</a></li>
+                  <li><a href="#">Windows</a></li>
+                  <li><a href="#">Surface</a></li>
+                  <li><a href="#">Xbox</a></li>
+                  <li><a href="#">Deals</a></li>
+                  <li><a href="#">Support</a></li> -->
+          <!-- </p> -->
+      <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <div>
+        <nav class="nav-main"> 
+            <div>
+            <img src="logo.png" alt="logo" class="logo">
+        </div>
+            <div class="header-main"> 
+                               <ul class="ul">
+                <li class="header-list"><a href="#">Trafalgar 365</a></li>
+                <li class="header-list"><a href="#">Home</a></li>
+                <li class="header-list"><a href="#">Find a doctor</a></li>
+                <li class="header-list"><a href="#">Apps</a></li>
+                <li class="header-list"><a href="#">Testimonials</a></li>
+                <li class="header-list"><a href="#">About us</a></li>
+
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>

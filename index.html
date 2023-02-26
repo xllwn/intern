@@ -25,6 +25,9 @@
           <p class="logo">T</p>
           <p>Trafalgar</p>
         </div>
+        <div class="headerdots--top">
+          <img src="element 2.svg" />
+        </div>
 
         <div class="header-main">
           <ul class="ul">
@@ -37,8 +40,8 @@
         </div>
       </header>
 
-      <div class="end">
-        <div class="endleft">
+      <div class="hero__wrapper">
+        <div class="hero__wrapper--left">
           <div>
             <h1>Virtual healthcare for you</h1>
             <div class="leftbtm">
@@ -47,11 +50,15 @@
                 accessible on mobile and online for everyone
               </p>
             </div>
-            <input type="submit" value="Consult today" class="endbtn" />
+            <input
+              type="submit"
+              value="Consult today"
+              class="hero__wrapper--btn"
+            />
             <br />
           </div>
         </div>
-        <div class="endright">
+        <div class="hero__wrapper--right">
           <img src="doc1.png" alt="" />
         </div>
       </div>
@@ -78,7 +85,7 @@
             <img src="Frame.svg" alt="doctor" />
             <h1>Search doctor</h1>
             <br />
-            <p style="color: grey; font-size: small">
+            <p>
               Choose your doctor from thousands of specialist, general, and
               trusted hospitals
             </p>
@@ -87,7 +94,7 @@
             <img src="Frame (2).svg" alt="pharmacy" />
             <h1>Online pharmacy</h1>
             <br />
-            <p style="color: grey; font-size: small">
+            <p>
               Buy your medicines with our mobile application with a simple
               delivery system
             </p>
@@ -96,7 +103,7 @@
             <img src="Frame (3).svg" alt="Consultation" />
             <h1>Consultation</h1>
             <br />
-            <p style="color: grey; font-size: small">
+            <p>
               Free consultation with our trusted doctors and get the best
               recomendations
             </p>
@@ -108,7 +115,7 @@
             <img src="Frame (4).svg" alt="Info" />
             <h1>Details info</h1>
             <br />
-            <p style="color: grey; font-size: small">
+            <p>
               Free consultation with our trusted doctors and get the best
               recomendations
             </p>
@@ -117,7 +124,7 @@
             <img src="Frame (5).svg" alt="Emergency" />
             <h1>Emergency care</h1>
             <br />
-            <p style="color: grey; font-size: small">
+            <p>
               You can get 24/7 urgent care for yourself or your children and
               your lovely family
             </p>
@@ -126,7 +133,7 @@
             <img src="Frame (6).svg" alt="Track" />
             <h1>Tracking</h1>
             <br />
-            <p style="color: grey; font-size: small">
+            <p>
               Track and save your medical history and health data
             </p>
           </div>
@@ -141,6 +148,7 @@
         <div class="middleright">
           <div>
             <h1>Leading healthcare providers</h1>
+            <span class="lineleft line--black"></span>
             <div class="leftbtm">
               <p>
                 Trafalgar provides progressive, and affordable healthcare,
@@ -158,15 +166,18 @@
         <div class="mid2left">
           <div>
             <h1>Download our mobile apps</h1>
+            <span class="lineleft line--black"></span>
             <div class="mid2btm">
-              <p style="color: grey; font-size: small">
+              <p>
                 Our dedicated patient engagement app and web portal allow you to
                 access information instantaneously (no tedeous form, long calls,
                 or administrative hassle) and securely
               </p>
             </div>
-            <input type="submit" value="Download" class="mid2btn" />
-            <br />
+            <button class="download">
+              <p>Download</p>
+              <img src="Vector (1).svg" />
+            </button>
           </div>
         </div>
         <div class="mid2right">
@@ -175,6 +186,8 @@
       </div>
 
       <div class="feedback__wrapper">
+        
+            
         <div class="feedback">
           <h1>What our customer are saying</h1>
           <span class="line line--white"></span>
@@ -192,21 +205,37 @@
                 to access information instantaneously (no tedeous form, long
                 calls, or administrative hassle) and securely”
               </p>
+              
+            </div>
+            <div class="dots--feedback">
+              <img src="element3.svg" />
             </div>
           </div>
         </div>
 
         <div class="slider__wrapper">
-          <div class="left">left</div>
-          <div class="dots">dots</div>
-          <div class="right">right</div>
+          <div class="left">
+            <img src="Vector (2).svg" />
+          </div>
+          <div class="dots">
+            <span><img src="Ellipse 5.png" /></span>
+            <span><img src="Ellipse 3.png" /></span>
+            <span><img src="Ellipse 3.png" /></span>
+            <span><img src="Ellipse 3.png" /></span>
+          </div>
+          <div class="right">
+            <img src="Vector 4.svg" />
+          </div>
         </div>
       </div>
-
+<div class="service1__wrapper">
+ 
       <div class="service1">
+       
         <h1>Check out our latest article</h1>
         <span class="line line--black"></span>
       </div>
+    
 
       <div>
         <section class="image">
@@ -224,6 +253,7 @@
               >Read more <i class="fas fa-chevron-right"></i>
             </a>
           </div>
+          
 
           <div class="article">
             <img src="doc5.png" alt="" />
@@ -254,6 +284,7 @@
               >Read more <i class="fas fa-chevron-right"></i>
             </a>
           </div>
+        </div>
         </section>
 
         <div class="viewall">
@@ -263,6 +294,8 @@
 
         <div class="service1">
           <h1>Contact us</h1>
+          \
+          <span class="line line--black"></span>
           <br />
         </div>
 
@@ -289,16 +322,23 @@
           <label for="fname">Email ID</label>
           <input type="text" id="fname" name="fname" />
         </div>
-        <label for="fname">Your mesage </label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <label for="fname">Your message </label>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
       </form>
       <div class="viewall">
-        <input type="submit" value="view all" class="middlebtn" />
+        <input type="submit" value="Send message" class="middlebtn" />
       </div>
+
       <footer class="about">
         <div class="scroll_top">
-          <img src="" alt="icon" />
+          <img src="up arrow.png" alt="icon" />
           Scroll to top
+        </div>
+        <div class="dots--top">
+          <img src="element3.svg" />
+        </div>
+        <div class="dots--bottom">
+          <img src="element.svg" />
         </div>
         <div class="about1">
           <div class="endlogo">
@@ -361,5 +401,6 @@
         </div>
       </footer>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
